@@ -1,0 +1,36 @@
+
+.footer{
+  color: rgb(187 187 187);
+  background-color: #680000e6;
+}
+.footer .content
+{
+  padding: 10px 0 !important;
+}
+.footer h2,
+.footer p
+{
+  color: white;
+  padding: 10px 0 !important;
+}
+.footer a{
+  color: rgb(187 187 187);
+  display: inline-block;
+  margin:  8px ;
+}
+.footer a:hover {
+  color: rgb(187 187 187);
+}
+.footer p,
+.footer ul
+{
+  margin: 10px 0 ;
+  text-align: right !important;
+  font-size: 14px !important;
+}
+body.left .footer p,
+body.left .footer ul
+{
+  text-align: left !important;
+
+}

@@ -1,0 +1,36 @@
+.section4
+{
+  border-radius: .75rem;
+  overflow: hidden;
+  flex-direction: column;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxs{
+  margin-top: 60px !important;
+}
+.section4 .box
+{
+  background-color: #680000e6;
+  margin: 20px auto;
+  width: 50%;
+  padding: 20px;
+  color: whitesmoke;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px #680000e6;
+  color:#010102
+}
+.box p{
+  color: rgb(187 187 187);
+  
+}
+@media (max-width:767px) {
+  .section4 .box
+{
+  width: 100%;
+}
+}

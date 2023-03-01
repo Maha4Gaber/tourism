@@ -1,0 +1,67 @@
+.section2
+{
+  border-radius: .75rem;
+  overflow: hidden;
+  width: 90% ;
+  margin: auto;
+  position: relative;
+  /* background-color: rgb(0 0 0); */
+  padding: 100px 0;
+}
+.boxs{
+  margin-top: 60px !important;
+}
+
+.section2 .box
+{
+  overflow: hidden;
+  height: 20rem;
+  position: relative;
+  border-radius: .75rem;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.section2 .box img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: .75rem;
+  inset: 0;
+  object-fit: cover;
+  color: transparent;
+  max-width: 100%;
+  transition-property: all !important;
+  transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
+  transition-duration: .5s !important;
+}
+.section2 .box .over
+{
+  background-image: linear-gradient(to bottom,rgb(5, 5, 5),transparent,rgb(0, 0, 0) );
+  color: transparent;
+  inset: 0;
+  border-radius: .75rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.section2 .box .text{
+  transition-property: all !important;
+  transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
+  transition-duration: .5s !important;
+  inset: 0;
+  position:absolute ;
+  top: 200px;
+}
+.section2 .box:hover .text
+{
+  top: 100px;
+}
+.section2 .box:hover img
+{
+  scale:1.2;
+}
+.section2 .box .text h2{
+  font-size: calc(1.325rem + .9vw);
+  color: whitesmoke ;
+  margin-bottom: 80px;
+}

@@ -1,0 +1,114 @@
+.search
+{
+  /* border-radius: .75rem; */
+  overflow: hidden;
+  /* width: 90% ; */
+  margin: auto;
+  position: relative;
+  background-color: rgb(242 237 226);
+  padding-top: 100px;
+}
+.boxs{
+  margin-top: 60px !important;
+}
+
+.search .box
+{
+  background-color: #fff;
+  border-radius: .75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  user-select: none;
+  position: relative;
+  box-shadow: 5px 5px 15px #f1002479;
+  text-align: right;
+  margin-bottom: 60px !important;
+  height: 450px;
+  padding-bottom: 20px;
+}
+.search .box .img
+{
+  position: relative;
+  height: 240px;
+}
+.search .box .img img{
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.search .box .place{
+  position: absolute;
+  bottom: -10px;
+  left: 5%;
+  transform: translateY(-53%,-5%);
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #f10024;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.search .box h2{
+  transition-property: all !important;
+  transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
+  transition-duration: .5s !important;
+  color: black;
+  font-size:20px;
+  margin: 20px;
+  
+}
+.search .box h2:hover {
+  color:#f10024;
+}
+.search .box .details
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.search .box .details .btn
+{
+  margin:.5rem  2rem !important;
+}
+
+.search form
+{
+  display: flex;
+  padding: 2rem;
+}
+.search form .text
+{
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  gap: 50px;
+
+}
+.search form input
+{
+  padding:.5rem .75rem;
+  display: block;
+  width: 100%;
+  flex: 1 0 0%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(242 237 226);
+
+}
+.search form input:focus
+{
+  outline: none;
+}
+.search form .btn a{
+  color: whitesmoke;
+}
