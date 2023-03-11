@@ -4,9 +4,10 @@
 import {createClient} from '@sanity/client'
 
 const client = createClient({
-  projectId: 'a3mk95di',
+  projectId: 'v0r2ootz',
   dataset: 'production',
 })
+
 
 export default client;
 

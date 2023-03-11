@@ -37,6 +37,7 @@ export default function Search() {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const handleGoHome = () => {
+    console.log(places.length);
   };
   function addtoFav(place) {
     dispatch(addToFav(place))
@@ -65,7 +66,6 @@ export default function Search() {
             <form className='' onSubmit={(e) => {
             e.preventDefault();
               handleGoHome()
-              setFilter(value1)
           }}>
               <div className='searchbox flex justify-between overflow-hidden text'>
                 <input type="text"
@@ -85,7 +85,7 @@ export default function Search() {
             </div>
           <div className='row'>
               <p>
-                  {t('نتيجة البحث ')} : {value1}
+                  {t('نتيجة البحث ')} : {value1===''?'all':value1}
               </p>
               
             </div>
